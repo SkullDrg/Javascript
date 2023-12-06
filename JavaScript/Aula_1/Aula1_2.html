@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Time for some Math</h1>
+    <script>
+        let x = 13
+    </script>
+
+    <button type="button" onclick="document.getElementById('sum').innerHTML = (x + 5)">Click to sum X</button>
+    <button type="button" onclick="document.getElementById('minus').innerHTML = (x - 5)">Click to minus X</button>
+    <button type="button" onclick="document.getElementById('zero').innerHTML = (x - x)">
+    Clicl to reduce X to 0</button>
+
+    <p id="sum">Sum 5 from x</p>
+    <p id="minus">Minus 5 from x</p>
+    <p id="zero">Subtract X from X</p>
+</body>
+</html>
